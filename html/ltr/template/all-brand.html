@@ -9,17 +9,24 @@
     <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>Dashboard Ecommerce - Bootstrap HTML admin template</title>
+    <title>Brand - Ecommerce - Bootstrap HTML admin template</title>
     <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/charts/apexcharts.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/tables/datatable/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/tables/datatable/responsive.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/tables/datatable/buttons.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/tables/datatable/rowGroup.bootstrap5.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+    
     <!-- END: Vendor CSS-->
-
+    <!-- BEGIN: Page Css -->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/dashboard-nav.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/all-brand.css">
+    <!-- END: Page Css -->
     <!-- BEGIN: Theme CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
@@ -31,10 +38,6 @@
 
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/dashboard.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/dashboard-nav.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/charts/chart-apex.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/extensions/ext-component-toastr.css">
     <!-- END: Page CSS-->
     <!-- Font Awesome Css-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
@@ -282,13 +285,14 @@
     </ul>
     <!-- END: Header-->
 
+
     <!-- BEGIN: Main Menu-->
     <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
         <div class="navbar-header">
             <ul class="nav navbar-nav flex-row">
                 <li class="nav-item me-auto">
                     <a class="navbar-brand" href="../../../html/ltr/vertical-menu-template/index.html">
-                        <h2 class="brand-text">Ecommerce</h2>
+                        <h2 class="brand-text"> Ecommerce</h2>
                     </a>
                 </li>
                 <li class="nav-item nav-toggle">
@@ -444,284 +448,224 @@
     </div>
     <!-- END: Main Menu-->
 
-    <!-- BEGIN: Content-->
+
+
+
+    <!-- ============================== section code: 2022=========================================================================== table start=================================================================== BEGIN: Content-->
     <div class="app-content content ">
         <div class="content-overlay"></div>
         <div class="header-navbar-shadow"></div>
         <div class="content-wrapper container-xxl p-0">
-            <div class="content-header row">
-            </div>
             <div class="content-body">
-                <!-- Dashboard Starts -->
-                <section id="dashboard-ecommerce">
-                    <div class="row match-height">
-                        <!-- Sale Card -->
-                        <div class="col-xxl-3 col-xl-6  col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5>Today's Sale</h5>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="#">54344 TK</a>
-                                    </h3>
-                                    <i class="fas fa-money-bill-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-6 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5>Monthly Sale</h5>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="#">54344 TK</a>
-                                    </h3>
-                                    <i class="fas fa-money-bill-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-6  col-md-6 col-xs-12 ">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5>Yearly Sale</h5>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="#">54344 TK</a>
-                                    </h3>
-                                    <i class="fas fa-money-bill-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-6 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5>Total Admin</h5>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="#">15</a>
-                                    </h3>
-                                    <i class="fas fa-user-friends"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Sale Card -->
+                <div class="row">
+                    <div class="col-12">
+                        <p>Brand Data Table <a href="https://datatables.net/" target="_blank"></a></p>
                     </div>
-                    <!-- Row Start -->
-                    <div class="row match-height">
-                        <!-- Sale Card -->
-                        <div class="col-xxl-3 col-xl-6 col-md-6 col-xs-12">
+                </div>
+                <!-- Responsive table -->
+                <section id="responsive-datatable">
+                    <div class="row">
+                        <div class="col-12">
                             <div class="card">
-                                <div class="card-body">
-                                    <h5>Total Employee</h5>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="#">20</a>
-                                    </h3>
-                                    <i class="fas fa-user-friends"></i>
+                                <div class="card-datatable">
+                                    <div id="DataTables_Table_3_wrapper" class="dataTables_wrapper dt-bootstrap5">
+                                        <div class="d-flex justify-content-between align-items-center mx-0 row table-top">
+                                            <div class="col-sm-12 col-md-6">
+                                                <div class="dataTables_length" id="DataTables_Table_3_length">
+                                                        <label>Show 
+                                                        <select name="DataTables_Table_3_length" aria-controls="DataTables_Table_3" class="form-select">
+                                                            <option value="10">10</option>
+                                                            <option value="25">25</option>
+                                                            <option value="50">50</option>
+                                                            <option value="100">100</option>
+                                                        </select> entries
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-6">
+                                                <div id="DataTables_Table_3_filter" class="dataTables_filter">
+                                                    <label>Search:<input type="search" class="form-control" placeholder="" aria-controls="DataTables_Table_3"></label>
+                                                    <button type="button" class="btn btn-primary" style="margin-left: 7px;" data-bs-toggle="modal" data-bs-target="#addbrandModal"><i class="fas fa-plus" style="margin-right: 8px;"></i>Add Brand</button>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <table class="dt-responsive table dataTable dtr-column" id="DataTables_Table_3" role="grid" aria-describedby="DataTables_Table_3_info">
+                                        <!-- table head start-->
+                                        <thead>
+                                            <tr role="row">
+                                                <th class="control sorting_disabled" style="width: 26.2031px; display: none;" aria-label=""></th>
+                                                <th class="sorting sorting_desc" tabindex="0" aria-controls="DataTables_Table_3"  style="width: 92.4219px;" aria-label="Brand Name: activate to sort column ascending" aria-sort="descending">Brand Name</th>
+                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_3" style="width: 96.4688px;" aria-label="Image: activate to sort column ascending">Image</th>
+                                                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_3"  style="width: 88.1094px;" aria-label="Action: activate to sort column ascending">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <!-- table head end-->
+                                    <tbody>
+                                        <tr>
+                                            <td class="sorting_1">Maical Roy</td>
+                                            <td><img src="../../../app-assets/images/pages/eCommerce/1.png" alt="product" width="50"></td>
+                                            <td>
+                                                <a href="#" class="text-info me-10" data-bs-toggle="tooltip" data-bs-original-title="View">
+                                                    <i class="fas fa-eye"></i>
+                                                </a> 
+                                                <a href="#" class="text-danger" data-bs-original-title="Edit" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="text-danger" data-bs-original-title="Delete" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </a>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td class="sorting_1">Maic Roy</td>
+                                            <td><img src="../../../app-assets/images/pages/eCommerce/1.png" alt="product" width="50"></td>
+                                            <td>
+                                                <a href="#" class="text-info me-10" data-bs-toggle="tooltip" data-bs-original-title="View">
+                                                    <i class="fas fa-eye"></i>
+                                                </a> 
+                                                <a href="#" class="text-danger" data-bs-original-title="Edit" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="text-danger" data-bs-original-title="Delete" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </a>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td class="sorting_1">Ana Roy</td>
+                                            <td><img src="../../../app-assets/images/pages/eCommerce/1.png" alt="product" width="50"></td>
+                                            <td>
+                                                <a href="#" class="text-info me-10" data-bs-toggle="tooltip" data-bs-original-title="View">
+                                                    <i class="fas fa-eye"></i>
+                                                </a> 
+                                                <a href="#" class="text-danger" data-bs-original-title="Edit" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="text-danger" data-bs-original-title="Delete" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </a>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td class="sorting_1">Ana Roy</td>
+                                            <td><img src="../../../app-assets/images/pages/eCommerce/1.png" alt="product" width="50"></td>
+                                            <td>
+                                                <a href="#" class="text-info me-10" data-bs-toggle="tooltip" data-bs-original-title="View">
+                                                    <i class="fas fa-eye"></i>
+                                                </a> 
+                                                <a href="#" class="text-danger" data-bs-original-title="Edit" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="text-danger" data-bs-original-title="Delete" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </a>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td class="sorting_1">Maical Roy</td>
+                                            <td><img src="../../../app-assets/images/pages/eCommerce/1.png" alt="product" width="50"></td>
+                                            <td>
+                                                <a href="#" class="text-info me-10" data-bs-toggle="tooltip" data-bs-original-title="View">
+                                                    <i class="fas fa-eye"></i>
+                                                </a> 
+                                                <a href="#" class="text-danger" data-bs-original-title="Edit" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="text-danger" data-bs-original-title="Delete" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </a>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td class="sorting_1">Maical Roy</td>
+                                            <td><img src="../../../app-assets/images/pages/eCommerce/1.png" alt="product" width="50"></td>
+                                            <td>
+                                                <a href="#" class="text-info me-10" data-bs-toggle="tooltip" data-bs-original-title="View">
+                                                    <i class="fas fa-eye"></i>
+                                                </a> 
+                                                <a href="#" class="text-danger" data-bs-original-title="Edit" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="text-danger" data-bs-original-title="Delete" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </a>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td class="sorting_1">Maical Roy</td>
+                                            <td><img src="../../../app-assets/images/pages/eCommerce/1.png" alt="product" width="50"></td>
+                                            <td>
+                                                <a href="#" class="text-info me-10" data-bs-toggle="tooltip" data-bs-original-title="View">
+                                                    <i class="fas fa-eye"></i>
+                                                </a> 
+                                                <a href="#" class="text-danger" data-bs-original-title="Edit" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="text-danger" data-bs-original-title="Delete" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </a>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td class="sorting_1">Maical Roy</td>
+                                            <td><img src="../../../app-assets/images/pages/eCommerce/1.png" alt="product" width="50"></td>
+                                            <td>
+                                                <a href="#" class="text-info me-10" data-bs-toggle="tooltip" data-bs-original-title="View">
+                                                    <i class="fas fa-eye"></i>
+                                                </a> 
+                                                <a href="#" class="text-danger" data-bs-original-title="Edit" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="text-danger" data-bs-original-title="Delete" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </a>
+                                            </td>
+                                        </tr> 
+                                        <tr>
+                                            <td class="sorting_1">Maical Roy</td>
+                                            <td><img src="../../../app-assets/images/pages/eCommerce/1.png" alt="product" width="50"></td>
+                                            <td>
+                                                <a href="#" class="text-info me-10" data-bs-toggle="tooltip" data-bs-original-title="View">
+                                                    <i class="fas fa-eye"></i>
+                                                </a> 
+                                                <a href="#" class="text-danger" data-bs-original-title="Edit" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="text-danger" data-bs-original-title="Delete" data-bs-toggle="tooltip">
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="d-flex justify-content-between mx-0 row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="dataTables_info" id="DataTables_Table_3_info" role="status" aria-live="polite">Showing 0 to 0 of 0 entries</div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_3_paginate">
+                                            <ul class="pagination">
+                                                <li class="paginate_button page-item previous " id="DataTables_Table_3_previous">
+                                                    <a href="#" aria-controls="DataTables_Table_3" data-dt-idx="0" tabindex="0" class="page-link">&nbsp;</a>
+                                                </li>
+                                                <li class="paginate_button page-item next " id="DataTables_Table_3_next">
+                                                    <a href="#" aria-controls="DataTables_Table_3" data-dt-idx="1" tabindex="0" class="page-link">&nbsp;</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xxl-3 col-xl-6 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5>Total User</h5>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="#">10</a>
-                                    </h3>
-                                    <i class="fas fa-user-friends"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-6 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5>Total Paid Salary</h5>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="#">54344 TK</a>
-                                    </h3>
-                                    <i class="fas fa-money-bill-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-6 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5>Total Due Salary</h5>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="#">54344 TK</a>
-                                    </h3>
-                                    <i class="fas fa-money-bill-alt"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Sale Card -->
                     </div>
-                    <!-- Row End -->
-                    <!-- Row Start -->
-                    <div class="row match-height row_3">
-                        <!-- Sale Card -->
-                        <div class="col-xxl-2 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="col-8">
-                                        <h5>Total Delivered Product</h5>
-                                        <h3 class="mb-75 mt-2 pt-50">
-                                            <a href="#">5</a>
-                                        </h3>
-                                    </div>
-                                    <div class="col-4">
-                                        <i class="fas fa-check"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="col-8">
-                                        <h5>Total Pending Order</h5>
-                                        <h3 class="mb-75 mt-2 pt-50">
-                                            <a href="#">24</a>
-                                        </h3>
-                                    </div>
-                                    <div class="col-4">
-                                        <i class="fas fa-user-friends"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="col-8">
-                                        <h5>Total Confirmed Order</h5>
-                                        <h3 class="mb-75 mt-2 pt-50">
-                                            <a href="#">24</a>
-                                        </h3>
-                                    </div>
-                                    <div class="col-4">
-                                        <i class="fas fa-undo-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="col-8">
-                                        <h5>Total Processing Order</h5>
-                                        <h3 class="mb-75 mt-2 pt-50">
-                                            <a href="#">24</a>
-                                        </h3>
-                                    </div>
-                                    <div class="col-4">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="col-8">
-                                        <h5>Total Picked Order</h5>
-                                        <h3 class="mb-75 mt-2 pt-50">
-                                            <a href="#">24</a>
-                                        </h3>
-                                    </div>
-                                    <div class="col-4">
-                                        <i class="fas fa-sync-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="col-8">
-                                        <h5>Total Shipped Order</h5>
-                                        <h3 class="mb-75 mt-2 pt-50">
-                                            <a href="#">24</a>
-                                        </h3>
-                                    </div>
-                                    <div class="col-4">
-                                        <i class="fas fa-exclamation-triangle"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Sale Card -->
-                    </div>
-                    <!-- Row End -->
-                    <!-- Row Start -->
-                    <div class="row match-height row_3">
-                        <!-- Sale Card -->
-                        <div class="col-xxl-2 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="col-8">
-                                        <h5>Total Cancel Order</h5>
-                                        <h3 class="mb-75 mt-2 pt-50">
-                                            <a href="#">0</a>
-                                        </h3>
-                                    </div>
-                                    <div class="col-4">
-                                        <i class="fas fa-trash-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="col-8">
-                                        <h5>Debit</h5>
-                                        <h3 class="mb-75 mt-2 pt-50">
-                                            <a href="#">2400 TK</a>
-                                        </h3>
-                                    </div>
-                                    <div class="col-4">
-                                        <i class="fas fa-money-bill-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="col-8">
-                                        <h5>Credit</h5>
-                                        <h3 class="mb-75 mt-2 pt-50">
-                                            <a href="#">2400 Tk</a>
-                                        </h3>
-                                    </div>
-                                    <div class="col-4">
-                                        <i class="fas fa-money-bill-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-2 col-md-6 col-xs-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="col-8">
-                                        <h5>Asset</h5>
-                                        <h3 class="mb-75 mt-2 pt-50">
-                                            <a href="#">2400 TK</a>
-                                        </h3>
-                                    </div>
-                                    <div class="col-4">
-                                        <i class="fas fa-money-bill-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/ Sale Card -->
-                    </div>
-                    <!-- Row End -->
-                    
                 </section>
-                <!-- Dashboard Ends -->
-
+                <!--/ Responsive table -->
             </div>
         </div>
     </div>
-    
     <!-- END: Content-->
 
     <div class="sidenav-overlay"></div>
@@ -733,15 +677,83 @@
     </footer>
     <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
     <!-- END: Footer-->
+<!-- fdfd -->
+    <!-- Modal of Discount Icon Start-->
+	<div class="modal fade" id="addbrandModal" tabindex="-1"  aria-labelledby="addbrandModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+			<h5 class="modal-title" id="addbrandModalLabel" style="font-size: 22px;" >Add Brand</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-12">
+						<div class="form-group">
+                            <div class="row">
+                                <div class="col-4">
+                                    <label class="form-label  required">Brand Name</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" class="form-control" placeholder="Write Brand Name" required>
+                                </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-2">
+					<div class="col-12">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-4">
+                                    <label class="form-label  required">Brand Image</label>
+                                </div>
+                                <div class="col-8">
+                                    <!-- <input type="file" class="form-control"> -->
+                                    <div class="input-group ">
+                                        <input id="upload" type="file" onchange="readURL(this);" class="form-control border-0">
+                                        <label id="upload-label" for="upload" class="font-weight-light text-muted">Upload Image</label>
+                                        <div class="input-group-append">
+                                            <label for="upload"> <i class="fas fa-upload mr-2 text-muted"></i></label>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<div class="row">
+					<div class="col-6">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Add</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<!-- Modal of Discount Icon End -->
 
-
+   
     <!-- BEGIN: Vendor JS-->
     <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
     <!-- BEGIN Vendor JS-->
 
     <!-- BEGIN: Page Vendor JS-->
-    <script src="../../../app-assets/vendors/js/charts/apexcharts.min.js"></script>
-    <script src="../../../app-assets/vendors/js/extensions/toastr.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.bootstrap5.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/responsive.bootstrap5.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/datatables.buttons.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/jszip.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/pdfmake.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/vfs_fonts.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/buttons.html5.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/buttons.print.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -750,9 +762,9 @@
     <!-- END: Theme JS-->
 
     <!-- BEGIN: Page JS-->
-    <script src="../../../app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
+    <script src="../../../app-assets/js/scripts/tables/table-datatables-basic.js"></script>
     <!-- END: Page JS-->
-
+   
     <script>
         $(window).on('load', function() {
             if (feather) {
