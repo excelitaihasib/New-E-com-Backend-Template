@@ -1,0 +1,30 @@
+
+/* .header-navbar .navbar-container ul.navbar-nav .avatar{
+  font-size: 18px !important;
+} */
+.app-content .content-wrapper .content-body h5{
+  color: #000 ;
+  font-size: 18px;
+}
+.app-content .content-wrapper .content-body h3{
+  color: #000 ;
+}
+.app-content .content-wrapper .content-body i{
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  font-size: 30px;
+  color: #313030;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 7px -9px, 
+  rgba(0, 0, 0, 0.3) 0px 6px 0px -6px, rgba(10, 37, 64, 0.35) 0px 1px 6px 0px inset;
+  border-radius: 4px;
+  padding: 9px;
+}
+.app-content .content-wrapper .content-body .card {
+  /* box-shadow: -2px -4px 0 rgb(0 0 0 / 10%) inset; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 7px -9px, 
+  rgba(0, 0, 0, 0.3) 0px 6px 0px -6px, rgba(10, 37, 64, 0.35) 0px 1px 6px 0px inset;
+}
+.app-content .content-wrapper .content-body .row_3 i{
+  font-size: 22px;
+}

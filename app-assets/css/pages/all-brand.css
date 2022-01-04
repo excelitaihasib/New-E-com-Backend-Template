@@ -1,0 +1,73 @@
+#DataTables_Table_3_wrapper .table-top{
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+}
+#DataTables_Table_3_wrapper thead{
+    background-color: #707070;
+}
+#DataTables_Table_3_wrapper thead th{
+    background-color: #707070;
+    color: #fff;
+    padding-top: 10px;
+}
+#DataTables_Table_3_wrapper tbody{
+    background-color: #fff;
+}
+#DataTables_Table_3_wrapper td i{
+    margin-right: 13px;
+}
+#DataTables_Table_3_wrapper tr:nth-of-type(odd) {
+    background-color: #d2d2d2;
+}
+#DataTables_Table_3_wrapper table.dataTable{
+    margin-top: 2px !important;
+}
+/*** modal css start ***/
+button, [type="button"]{
+    margin: 10px 0px;
+}
+.modal label.form-label{
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+.modal .input-group{
+    border: 1px solid #d8d6de;
+    border-radius: 0.357rem;
+}
+/* modal image upload css */
+.modal-body #upload {
+    opacity: 0;
+}
+.modal-body #upload-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+.input-group-append{
+    margin-right: 6px;
+    margin-top: 6px;
+}
+.modal-body .image-area {
+    padding: 1rem;
+    position: relative;
+}
+.modal-body .image-area::before {
+    content: 'Uploaded image result';
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    z-index: 1;
+}
+.modal-body .image-area img {
+    z-index: 2;
+    position: relative;
+}
+/*** modal css end ***/
